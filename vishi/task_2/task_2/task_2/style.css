@@ -1,0 +1,294 @@
+/* color: #333;
+    #f4f4f4
+    background-color: #6f4c3e;
+    background-color: #d9c9b6;
+*/
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.header_container {
+    padding:0px;
+    background-color: transparent;
+    position: absolute;
+    width: 100%;
+}
+
+.header_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_logo a{
+    color: chocolate;
+    font-style: italic;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.list ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;     
+}
+.list{
+    width: 35%;
+}
+
+.list a {
+    text-decoration: none;
+    color:chocolate;
+    font-weight: bold;
+}
+
+header{
+    top: 0;
+}
+
+.header_logo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+
+.hed{
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.welcome{
+    background-image: url('images/homeImg1.jpg');
+    background-size: cover;
+    background-position: center ;
+    background-repeat: no-repeat; 
+    height: 500px;  
+}
+
+.welcome h1 {
+    margin-top: 0;
+}
+
+.welcome .wel_info{
+    color: #f4f4f4;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 0 0 40px;
+}
+.about {
+    background-color: #d9c9b6;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    margin: 0;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #6f4c3e;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.products {
+    padding: 20px;
+    text-align: center;
+}
+
+.product {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+}
+
+footer {
+    background-color: #6f4c3e;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+/* Image with text */
+
+.coffee-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px;
+    gap: 40px;
+    background-color: #f8f8f8;
+}
+
+.image-container {
+    position: relative;
+    width: 40%;
+}
+
+.image-container img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.review-box {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+}
+
+.heart-icon {
+    font-size: 18px;
+    color: black;
+    margin-right: 8px;
+}
+
+.text-container {
+    width: 50%;
+}
+
+.subheading {
+    font-style: italic;
+    color: #c47c52;
+}
+
+h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.coffee-types {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.buttons {
+    margin-top: 15px;
+}
+
+.about-btn {
+    background-color: #c47c52;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-more {
+    margin-left: 15px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+/* Brands */
+
+.trusted-brands {
+    padding: 50px 0;
+}
+
+.brand-title {
+    font-size: 20px;
+    color: #b76e42;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.brand-logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.brand-logos img {
+    width: 150px; /* Adjust size as needed */
+    height: auto;
+    opacity: 0.7; /* Similar faded effect */
+    transition: opacity 0.3s ease-in-out;
+}
+
+.brand-logos img:hover {
+    opacity: 1;
+}
+
+
+
+
+/* Footer */
+
+.footer {
+    background-color: #2d2d2d;
+    color: #bbb;
+    padding: 40px 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1100px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h3 {
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #bbb;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.footer-section ul li:hover {
+    color: #fff;
+}
